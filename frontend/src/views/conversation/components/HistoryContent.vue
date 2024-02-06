@@ -22,6 +22,9 @@
           </template>
         </n-button>
       </div>
+      <div class="flex flex-col">
+        <n-text> 点击这里添加<a href="https://b1n.net/6HmF0">Sydney-Ai</a> 加入交流微信群 </n-text>
+      </div>
       <div
         v-if="convOpenaiWebPluginIds && convOpenaiWebPluginIds.length > 0"
         class="flex flex-row items-center justify-center pb-4 relative"
